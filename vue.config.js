@@ -1,3 +1,8 @@
 module.exports = {
-  transpileDependencies: true
+  transpileDependencies: true,
+  pluginOptions: {
+    electronBuilder: {
+      nodeIntegration: true
+    }
+  }
 }
